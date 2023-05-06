@@ -67,3 +67,32 @@ print(dict)
 
 sets={1,2,34,5,2}
 print(sets)
+
+
+# ******************************************
+
+
+# None:
+# None is used to define a null value. When we assign a None value to a variable, we are essentially resetting it to its original empty state which is not the same as zero, an empty string or a False value.
+
+# Example:
+
+state = None
+print(type(state))
+# *********************************
+
+# Binary data: bytes, bytearray, memoryview
+# bytes: bytes() function is used to convert objects into byte objects, or create empty bytes object of the specified size.
+
+# Example:
+
+#Converting string to bytes
+str1 = "This is a string"
+arr1 = bytes(str1, 'utf-8')
+print(arr1)
+arr2 = bytes(str1, 'utf-16')
+print(arr2)
+
+#Creating bytes of given size
+bytestr = bytes(4)
+print(bytestr)
