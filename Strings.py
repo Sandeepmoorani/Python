@@ -60,85 +60,125 @@
 
 
 
-example = "format() method"
+# example = "format() method"
 
-formatted_string = "this is an example of using the {} on a string".format(example)
+# formatted_string = "this is an example of using the {} on a string".format(example)
 
-print(formatted_string)
-
-
-first = "apple"
-second = "banana"
-third = "carrot"
-
-formatted_string = "{0} {2} {1}".format(first, second, third)
-
-print(formatted_string)
+# print(formatted_string)
 
 
-a="abc"
-b="xyz"
-c="a to z"
+# first = "apple"
+# second = "banana"
+# third = "carrot"
 
-fmethod= "{0} {2} {1}".format(a,b,c)
-print(fmethod)
+# formatted_string = "{0} {2} {1}".format(first, second, third)
+
+# print(formatted_string)
 
 
-'{:d}'.format(10.5)
+# a="abc"
+# b="xyz"
+# c="a to z"
+
+# fmethod= "{0} {2} {1}".format(a,b,c)
+# print(fmethod)
+
+
+# '{:d}'.format(10.5)
 
 # ****************************************************
 
 
-def convert_distance(miles):
-    km = miles * 1.6 
-    result = "{} miles equals {:.1f} km" .format(miles,km)
-    return result
-print(convert_distance(12)) # Should be: 12 miles equals 19.2 km
-print(convert_distance(5.5)) # Should be: 5.5 miles equals 8.8 km
-print(convert_distance(11)) # Should be: 11 miles equals 17.6 km
+# def convert_distance(miles):
+#     km = miles * 1.6 
+#     result = "{} miles equals {:.1f} km" .format(miles,km)
+#     return result
+# print(convert_distance(12)) # Should be: 12 miles equals 19.2 km
+# print(convert_distance(5.5)) # Should be: 5.5 miles equals 8.8 km
+# print(convert_distance(11)) # Should be: 11 miles equals 17.6 km
 
 
 # **************************************
 
 
-def nametag(first_name, last_name):
-    return("{} {}.".format(first_name,last_name[0]))
+# def nametag(first_name, last_name):
+#     return("{} {}.".format(first_name,last_name[0]))
 
 
-print(nametag("Jane", "Smith")) 
-# Should display "Jane S." 
-print(nametag("Francesco", "Rinaldi")) 
-# Should display "Francesco R." 
-print(nametag("Jean-Luc", "Grand-Pierre")) 
-# Should display "Jean-Luc G." 
+# print(nametag("Jane", "Smith")) 
+# # Should display "Jane S." 
+# print(nametag("Francesco", "Rinaldi")) 
+# # Should display "Francesco R." 
+# print(nametag("Jean-Luc", "Grand-Pierre")) 
+# # Should display "Jean-Luc G." 
 
-# ***********************************
+# # ***********************************
 
-def replace_ending(sentence, old, new):
-    # Check if the old substring is at the end of the sentence 
-    if sentence.endswith(old):
-        # Using i as the slicing index, combine the part
-        # of the sentence up to the matched string at the 
-        # end with the new string
-        i = len(sentence) - len(old)
-        new_sentence = sentence[:i] + new
-        return new_sentence
+# def replace_ending(sentence, old, new):
+#     # Check if the old substring is at the end of the sentence 
+#     if sentence.endswith(old):
+#         # Using i as the slicing index, combine the part
+#         # of the sentence up to the matched string at the 
+#         # end with the new string
+#         i = len(sentence) - len(old)
+#         new_sentence = sentence[:i] + new
+#         return new_sentence
 
 
-    # Return the original sentence if there is no match 
-    return sentence
+#     # Return the original sentence if there is no match 
+#     return sentence
     
-print(replace_ending("It's raining cats and cats", "cats", "dogs")) 
-# Should display "It's raining cats and dogs"
-print(replace_ending("She sells seashells by the seashore", "seashells", "donuts")) 
-# Should display "She sells seashells by the seashore"
-print(replace_ending("The weather is nice in May", "may", "april")) 
-# Should display "The weather is nice in May"
-print(replace_ending("The weather is nice in May", "May", "April")) 
+# print(replace_ending("It's raining cats and cats", "cats", "dogs")) 
+# # Should display "It's raining cats and dogs"
+# print(replace_ending("She sells seashells by the seashore", "seashells", "donuts")) 
+# # Should display "She sells seashells by the seashore"
+# print(replace_ending("The weather is nice in May", "may", "april")) 
+# # Should display "The weather is nice in May"
+# print(replace_ending("The weather is nice in May", "May", "April")) 
 # Should display "The weather is nice in April"
 
 # *********************************
 
+# name = "Sadeep"
+# age =20
+# print("hello"+name+"your age is"+str(age))
+
+# print("hello {} your age is {}".format(name,age))
+
+# print(f"Hello {name} your age is {20}")
+
+# **********************************
+
+# first,second, third=input("enter your first ,second , third number").split()
+# avg=int(first+second+third)/3
+# print(f"Average of three numbers is {(int(first)+int(second)+int(third))/3}")
+
+
+# print("{0} {1} {2}".format(first,second,third))
+# print(f"{first} {second} {third}")
+
+# *******************
+
+# nmae ="Sandeep"
+# print(nmae[3::-1])
+
+# Name=input("Enter your Name:")
+# print("your name is:"+Name[::-1])
+
+# ************************
+
+# Name="Sandeep Moorani"
+# print(len(Name))
+# print(Name.lower())
+# print(Name.upper())
+# print(Name.title())
+# print(Name.count("o"))
+
+# *****************
+
+name,single=input("Enter your name and sigle letter:").split()
+print(len(name))
+print(name.count(single))
 
 
 
