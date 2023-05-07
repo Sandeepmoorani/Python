@@ -20,3 +20,12 @@ print("iam a \"software Engineer\"")   #this is escape sequence
 print("Iam Sandeep Moorani",15, sep="-->")
 print("Good Night")
 
+print("\U0001F600\t\U0001F600")
+print("\U0001F601")
+print("\U0001F602")
+print("\U0001F603")
+print("\U0001F604")
+print("\U0001F617")
+print("\U0001F618")
+print("\U0001F970")
+print("\U0001F606")
