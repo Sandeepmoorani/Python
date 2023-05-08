@@ -8,8 +8,7 @@
 
 # "sandeep moorani".upper()
 # "this is a string".upper()
-
-# "yes".strip()
+#  "yes".strip()
 
 # "hello is me" .count("l")
 
@@ -176,9 +175,21 @@
 
 # *****************
 
-name,single=input("Enter your name and sigle letter:").split()
-print(len(name))
-print(name.count(single))
+# name,single=input("Enter your name and sigle letter:").split()
+# print(len(name))
+# print(name.count(single)) 
+
+# ******************
+
+string="Iam a software engineer and iam studing at MUET"
+print(string.replace(" ","_"))
+print(string.find("a"))
+
+Name="Sandeep"
+print(Name.center(9,"*"))
+
+name=input("enter your name:")
+print(name.center(len(name)+10,"#"))
 
 
 
