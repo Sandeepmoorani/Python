@@ -71,14 +71,34 @@
 
 # ************************
 
-user_age=int(input("enter your age:"))
-if user_age<=3:
-  print(":ticket free")
-elif 10<user_age<=20:
-  print("ticket price is 100")
-elif 20<user_age<=50:
-    print("ticket price is 150")
+# user_age=int(input("enter your age:"))
+# if user_age<=3:
+#   print(":ticket free")
+# elif 10<user_age<=20:
+#   print("ticket price is 100")
+# elif 20<user_age<=50:
+#     print("ticket price is 150")
+# else:
+#   print("Your ticket price is 200")
+
+# ************************
+
+# using in keyword
+
+# Name = "Sandeep"
+ 
+# if 'e' in Name:
+#   print("e is present in name")
+# else:
+#   print("e is not present")
+
+
+  # check empty or not 
+
+name ="Sandeep"
+if name:
+  print("String is not empty")
 else:
-  print("Your ticket price is 200")
+    print("string is empty")
 
 
