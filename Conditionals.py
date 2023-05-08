@@ -61,11 +61,24 @@
 
 
 # Name,age=input("enter your name and age:").split()
-User_Name=input("enter your name:")
-User_age=int(input("enter your age:"))
-if User_age >=10 and (User_Name[0]=='a' or User_Name[0]=='A'):
-  print("You can watch movie ")
+
+# User_Name=input("enter your name:")
+# User_age=int(input("enter your age:"))
+# if User_age >=10 and (User_Name[0]=='a' or User_Name[0]=='A'):
+#   print("You can watch movie ")
+# else:
+#   print("you cannot watch movie")
+
+# ************************
+
+user_age=int(input("enter your age:"))
+if user_age<=3:
+  print(":ticket free")
+elif 10<user_age<=20:
+  print("ticket price is 100")
+elif 20<user_age<=50:
+    print("ticket price is 150")
 else:
-  print("you cannot watch movie")
+  print("Your ticket price is 200")
 
 
