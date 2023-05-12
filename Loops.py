@@ -65,5 +65,27 @@
 
 # M2
 
-while True:
-    print("Good Night")
+# while True:
+#     print("Good Night")
+
+
+
+
+
+
+
+
+
+
+# ********************************************************
+# For loop 
+
+# for i in range(5):
+    # print("Software Engineering")
+
+    # print(f"Sandeep Moorani : {i}")
+
+
+# for i in range(1 ,11):
+#     print(f"hi  : {i}")
+#     print("hello \n")
