@@ -89,3 +89,18 @@
 # for i in range(1 ,11):
 #     print(f"hi  : {i}")
 #     print("hello \n")
+
+# sum=0
+
+# for i in range(1,11):
+#     sum +=i
+#     print(sum)
+
+
+
+n=int(input("Enter your number:"))
+sum=0
+
+for i in range(1,n+1):
+    sum+=i
+    print(sum)
