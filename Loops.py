@@ -45,11 +45,25 @@
     
 
     # ****************************
-name=input("Enter your name please:")
-i=0
-temp_var=""
-while i<len(name):
-    if name[i] not in temp_var:
-        temp_var+=name[i]
-        print(f"{name[i]} : {name.count(name[i])}")
-    i+=1
+# name=input("Enter your name please:")
+# i=0
+# temp_var=""
+# while i<len(name):
+#     if name[i] not in temp_var:
+#         temp_var+=name[i]
+#         print(f"{name[i]} : {name.count(name[i])}")
+#     i+=1
+
+# infinite loop 
+
+# M1
+
+# i=0
+# while i<=10:
+#     print("sandeep moorani")
+
+
+# M2
+
+while True:
+    print("Good Night")
