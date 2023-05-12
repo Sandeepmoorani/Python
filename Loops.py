@@ -119,9 +119,21 @@
 #     print(sum)
 
 
-n=input("enter your number :")
+# n=input("enter your number :")
 
-total=0
-for i in range(0,len(n)):
-    total+= int(n[i])
-    print(total)
+# total=0
+# for i in range(0,len(n)):
+#     total+= int(n[i])
+#     print(total)
+
+# ************************
+
+name=input("Enter your name please:")
+i=0
+temp_var=""
+for i in range(len(name)):
+    if name[i] not in temp_var:
+        temp_var+=name[i]
+        print(f"{name[i]} : {name.count(name[i])}")
+    i+=1
+
