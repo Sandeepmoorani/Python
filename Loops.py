@@ -151,3 +151,21 @@
     
 # for i in range(1,-11,-1):
 #     print(i)
+
+# ***********************************
+
+# name="Sandeep"
+# for i in name:
+#     print(i)
+
+#     name ="Sandeep"
+#     for i in "Sandeep":
+#         print(i)
+
+
+
+num=input("Enter your number:")
+total=0
+for i in num:
+    total +=int(i)
+    print(total)
