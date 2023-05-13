@@ -128,12 +128,26 @@
 
 # ************************
 
-name=input("Enter your name please:")
-i=0
-temp_var=""
-for i in range(len(name)):
-    if name[i] not in temp_var:
-        temp_var+=name[i]
-        print(f"{name[i]} : {name.count(name[i])}")
-    i+=1
+# name=input("Enter your name please:")
+# i=0
+# temp_var=""
+# for i in range(len(name)):
+#     if name[i] not in temp_var:
+#         temp_var+=name[i]
+#         print(f"{name[i]} : {name.count(name[i])}")
+#     i+=1
 
+
+
+# for i in range(1,11,3):
+#     print(i)
+
+
+
+# for i in range(0,11,2):
+#     print(i)
+
+
+    
+# for i in range(1,-11,-1):
+#     print(i)
