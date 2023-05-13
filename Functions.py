@@ -46,6 +46,18 @@
 #     return False    
 # print(is_even(12))
 
-def is__Even(num):
-    return num%2==0 
-print(is__Even(23))
+# def is__Even(num):
+#     return num%2==0 
+# print(is__Even(23))
+
+# *********************************
+
+def is_greater(num,num1):
+    if num >num1:
+        return num
+    else:
+        return num1
+x=int(input("enter your first num :"))
+y=int(input("enter your sec num :"))
+big=is_greater(x,y)
+print(f"{big} Is greater" )
