@@ -32,9 +32,20 @@
 
 # *******************************
 
-def even_odd(num):
-    if num%2 ==0:
-        return "even"
-    else:
-        return "odd"
-print(even_odd(1))
+# def even_odd(num):
+#     if num%2 ==0:
+#         return "even"
+#     else:
+#         return "odd"
+# print(even_odd(1))
+
+
+# def is_even(numb):
+#     if numb%2 ==0:
+#         return True
+#     return False    
+# print(is_even(12))
+
+def is__Even(num):
+    return num%2==0 
+print(is__Even(23))
