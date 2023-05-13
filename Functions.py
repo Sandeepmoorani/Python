@@ -52,12 +52,33 @@
 
 # *********************************
 
-def is_greater(num,num1):
-    if num >num1:
-        return num
-    else:
-        return num1
-x=int(input("enter your first num :"))
-y=int(input("enter your sec num :"))
-big=is_greater(x,y)
-print(f"{big} Is greater" )
+# def is_greater(num,num1):
+#     if num >num1:
+#         return num
+#     else:
+#         return num1
+# x=int(input("enter your first num :"))
+# y=int(input("enter your sec num :"))
+# big=is_greater(x,y)
+# print(f"{big} Is greater" )
+
+# **************************************
+
+# def is_palindrome(word):
+#     reversed_string = word[::-1]
+#     if word== reversed_string:
+#         return True
+#     else:
+#         return False
+
+# x=input("Enter your name :")
+
+
+
+# print(is_palindrome(x) )
+
+
+def is_palindrome(word):
+    return word == word[::-1]
+print(is_palindrome("madam"))
+
