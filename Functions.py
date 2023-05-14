@@ -1,4 +1,4 @@
-# Functions 
+# Functions
 
 # name = "Sandeep"
 # print(len(name))
@@ -17,7 +17,7 @@
 
 # total_sum= sum(x,y)
 # print(total_sum)
- 
+
 # first_name= input("Enter first name : ")
 # last_name= input("Enter last name  : ")
 # print(sum(first_name,last_name))
@@ -43,11 +43,11 @@
 # def is_even(numb):
 #     if numb%2 ==0:
 #         return True
-#     return False    
+#     return False
 # print(is_even(12))
 
 # def is__Even(num):
-#     return num%2==0 
+#     return num%2==0
 # print(is__Even(23))
 
 # *********************************
@@ -74,11 +74,30 @@
 # x=input("Enter your name :")
 
 
-
 # print(is_palindrome(x) )
 
 
-def is_palindrome(word):
-    return word == word[::-1]
-print(is_palindrome("madam"))
+# def is_palindrome(word):
+#     return word == word[::-1]
+# print(is_palindrome("madam"))
 
+# ***********************************
+
+
+# def fibnoacci_seq(num):
+#     a = 0
+#     b = 1
+#     if num == 1:
+#         print(a)
+#     elif num == 2:
+#         print(a, b)
+#     else:
+#         print(a, b, end=" ")
+#         for i in range(num - 2):
+#             c = a + b
+#             a = b
+#             b = c
+#             print(b, end=" ")
+
+
+# fibnoacci_seq(20)
