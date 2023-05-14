@@ -44,14 +44,25 @@ fruits=["Apple","Mango","Banana","Grapes","Apple"]
 
 # Sort 
 # fruits.sort()
-num=[1,2,10,9,5,67,8]
+# num=[1,2,10,9,5,67,8]
 # print(sorted(num))
 # print(fruits)
 
 # copy() 
-num1=num.copy()
-print(num1)
+# num1=num.copy()
+# print(num1)
 
+# split() 
+# Name= "Sandeep 15".split()
+# print(Name)
+
+# name,age="Sandeep 20".split()
+# print(name)
+# print(age)
+
+# join() 
+Nmae=["Sandeep","20"]
+print(",".join(Nmae))
 
 # a = ["We", "are", "learning"]
 # print(type(a))
