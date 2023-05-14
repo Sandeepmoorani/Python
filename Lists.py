@@ -3,11 +3,30 @@
 #  You can use the len() function to return the number of elements in a list: len(list) would return 4.
 
 
-a=[1,2,3,4,5,6,7,8,9,10]
-print(a)
+# a=[1,2,3,4,5,6,7,8,9,10]
+# print(a)
 
-b=["Hi","iam", "sandeep", "Moorani","My","RollNo","is:","21sw015"]
-print(b)
+# b=["Hi","iam", "sandeep", "Moorani","My","RollNo","is:","21sw015"]
+
+# b.append("Software")
+# b.insert(0,"hello")
+# c=a+b
+# print(c)
+
+# a.extend(b)
+# print(a)
+# print(b)
+# ***************************************
+
+fruits=["Banana","Grapes"]
+fruits1=["Apple","Mango"]
+
+fruits.append("cheku")
+fruits.insert(1,"papeto")
+fruits.extend(fruits1)
+
+print(fruits)
+print(fruits1)
 
 
 # a = ["We", "are", "learning"]
