@@ -18,15 +18,26 @@
 # print(b)
 # ***************************************
 
-fruits=["Banana","Grapes"]
-fruits1=["Apple","Mango"]
+# fruits=["Banana","Grapes"]
+# fruits1=["Apple","Mango"]
 
-fruits.append("cheku")
-fruits.insert(1,"papeto")
-fruits.extend(fruits1)
+# fruits.append("cheku")
+# fruits.insert(1,"papeto")
+# fruits.extend(fruits1)
 
-print(fruits)
-print(fruits1)
+# print(fruits)
+# print(fruits1)
+
+fruits=["Apple","Mango","Banana","Grapes"]
+# fruits.pop(2)
+# fruits.insert(2,"Mango")
+# fruits.remove("Apple")
+# print(fruits)
+
+if "Apple" in fruits:
+    print('yes apple is present')
+else:
+    print("Apple is not present")
 
 
 # a = ["We", "are", "learning"]
