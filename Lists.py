@@ -28,16 +28,29 @@
 # print(fruits)
 # print(fruits1)
 
-fruits=["Apple","Mango","Banana","Grapes"]
+fruits=["Apple","Mango","Banana","Grapes","Apple"]
 # fruits.pop(2)
 # fruits.insert(2,"Mango")
 # fruits.remove("Apple")
 # print(fruits)
 
-if "Apple" in fruits:
-    print('yes apple is present')
-else:
-    print("Apple is not present")
+# if "Apple" in fruits:
+#     print('yes apple is present')
+# else:
+#     print("Apple is not present")
+
+# Count
+# print(fruits.count("Apple"))
+
+# Sort 
+# fruits.sort()
+num=[1,2,10,9,5,67,8]
+# print(sorted(num))
+# print(fruits)
+
+# copy() 
+num1=num.copy()
+print(num1)
 
 
 # a = ["We", "are", "learning"]
