@@ -41,17 +41,17 @@
 # Count
 # print(fruits.count("Apple"))
 
-# Sort 
+# Sort
 # fruits.sort()
 # num=[1,2,10,9,5,67,8]
 # print(sorted(num))
 # print(fruits)
 
-# copy() 
+# copy()
 # num1=num.copy()
 # print(num1)
 
-# split() 
+# split()
 # Name= "Sandeep 15".split()
 # print(Name)
 
@@ -59,7 +59,7 @@
 # print(name)
 # print(age)
 
-# join() 
+# join()
 # Nmae=["Sandeep","20"]
 # print(",".join(Nmae))
 # ******************************************************************************************
@@ -69,19 +69,52 @@
 # for fruit in fruits:
 #     print(fruit)
 
-# list inside list 
+# list inside list
 
-matrix=[[1,2,3],[6,5,4],[9,8,7]]
+# matrix=[[1,2,3],[6,5,4],[9,8,7]]
 # print(matrix[0])
 # print(matrix[1])
 # print(matrix[2])
 
 # for sublist in matrix:
-    # print(sublist)
-    # for i in sublist:
-    #     print(i)
+# print(sublist)
+# for i in sublist:
+#     print(i)
 
-print(matrix[1][0])
+# print(matrix[1][0])
+
+# ************************
+
+# numbers= list(range(1,21))
+# print(numbers)
+
+
+
+# *****************************************
+
+#   **************Practice**********************
+
+# prob1 
+
+# def square_list(l):
+#     square = []
+#     for i in l:
+#         square.append(i**2)
+#     return square
+# num = list(range(1, 11))
+# print(square_list(num))
+
+# prob2 
+
+def reverse_list(l):
+    # l.reverse()
+    # return l
+    return l[::-1]
+num=[1,2,3,4]
+print(reverse_list(num))
+
+
+# *********************************************
 # a = ["We", "are", "learning"]
 # print(type(a))
 
@@ -125,9 +158,9 @@ print(matrix[1][0])
 #     multipe.append(x * 8)
 #     print(multipe)
 
-    # *********************
+# *********************
 
-    ## Simple List Comprehension
+## Simple List Comprehension
 # print("List comprehension result:")
 
 # The following list comprehension compacts several lines
@@ -249,9 +282,9 @@ print(matrix[1][0])
 #     multipe.append(x * 8)
 #     print(multipe)
 
-    # *********************
+# *********************
 
-    ## Simple List Comprehension
+## Simple List Comprehension
 # print("List comprehension result:")
 
 # The following list comprehension compacts several lines
