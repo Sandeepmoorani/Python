@@ -2,7 +2,7 @@
 #  list = ["This", "is", "a", "list"]
 #  You can use the len() function to return the number of elements in a list: len(list) would return 4.
 
-
+# **********************************************************************************
 # a=[1,2,3,4,5,6,7,8,9,10]
 # print(a)
 
@@ -16,7 +16,6 @@
 # a.extend(b)
 # print(a)
 # print(b)
-# ***************************************
 
 # fruits=["Banana","Grapes"]
 # fruits1=["Apple","Mango"]
@@ -28,7 +27,7 @@
 # print(fruits)
 # print(fruits1)
 
-fruits=["Apple","Mango","Banana","Grapes","Apple"]
+# fruits=["Apple","Mango","Banana","Grapes","Apple"]
 # fruits.pop(2)
 # fruits.insert(2,"Mango")
 # fruits.remove("Apple")
@@ -61,9 +60,28 @@ fruits=["Apple","Mango","Banana","Grapes","Apple"]
 # print(age)
 
 # join() 
-Nmae=["Sandeep","20"]
-print(",".join(Nmae))
+# Nmae=["Sandeep","20"]
+# print(",".join(Nmae))
+# ******************************************************************************************
 
+# fruits=["apple","mango","banana","cheku","papeto"]
+
+# for fruit in fruits:
+#     print(fruit)
+
+# list inside list 
+
+matrix=[[1,2,3],[6,5,4],[9,8,7]]
+# print(matrix[0])
+# print(matrix[1])
+# print(matrix[2])
+
+# for sublist in matrix:
+    # print(sublist)
+    # for i in sublist:
+    #     print(i)
+
+print(matrix[1][0])
 # a = ["We", "are", "learning"]
 # print(type(a))
 
