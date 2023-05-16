@@ -1,33 +1,21 @@
-# List Declarat
- 
-list1 = [1, 2, "Python", "Program", 15.9]      
-list2 = ["Sandeep", "Saeed", "Qurby", "Ali"]   
-  
+# updating list values  
+list = [1, 2, 3, 4, 5, 6]       
+print(list)       
+# It will assign value to the value to the second index     
+list[2] = 10     
+print(list)      
+# Adding multiple-element     
+list[1:3] = [89, 78]       
+print(list)     
+# It will add value at the end of the list    
+list[-1] = 25    
+print(list)    
 
-print(list1)  
-print(list2)  
-  
+# concatenation of two lists  
 
-
-# -> Characteristics of Lists
-
-# The list has the following characteristics:
-# The lists are ordered.
-# The element of the list can access by index.
-# The lists are the mutable type.
-# The lists are mutable types.
-# A list can store the number of various elements.
-
-
-# list_varible(start:stop:step)    
-
-
-# The {start} denotes the starting [index] position of the list.
-# The {stop} denotes the last index position of the list.
-# The {step} is used to skip the nth element within a start:stop
-
-# Repitation of lists 
+# declaring the lists  
 list1 = [12, 14, 16, 18, 20]  
-# repetition operator *  
-l = list1 * 2  
-print(l)
+list2 = [9, 10, 32, 54, 86]  
+
+l = list1 + list2  
+print(l)  
