@@ -35,3 +35,18 @@ user={}
 user['Nmae']='SandeepMoorani'
 user['age']=20
 print(user)
+
+# check key exist in dictionary 
+
+if 'Nmae' in user:
+    print("yes exist")
+else:
+    print("not exist")
+
+
+    # loops in dictionaries 
+for i in Emp_Info.values():
+    print(i)
+
+for i in Emp_Info:
+    print(i)
