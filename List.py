@@ -52,11 +52,25 @@
 # for i in list:      
 #     print(i,end=" ")    
 
-list1 = [103, 675, 321, 782, 2000,100]  
-# large element in the list  
-print(max(list1))  
+# list1 = [103, 675, 321, 782, 2000,100]  
+# # large element in the list  
+# print(max(list1))  
 
 
-list1 = [103, 675, 321, 782,0, 200]  
-# smallest element in the list  
-print(min(list1)) 
+# list1 = [103, 675, 321, 782,0, 200]  
+# # smallest element in the list  
+# print(min(list1)) 
+
+# ************************************************
+
+# Write the program to remove the duplicate element of the list.
+
+
+
+list1 = [1,2,2,3,55,98,65,65,13,29]    
+# Declare an empty list that will store unique values    
+list2 = []    
+for i in list1:    
+    if i not in list2:    
+        list2.append(i)    
+print(list2)    
