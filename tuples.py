@@ -31,7 +31,7 @@
 #     print(i)
 
 
-# creating single tuples  *******************************************
+# ******************************************* creating single tuples *********************
 single_tuple = ("Tuple",)    
 print( type(single_tuple) )     
 # Creating tuple without parentheses    
@@ -40,7 +40,7 @@ print( type(single_tuple) )
 
 
 
-# ************************************* access the tuples elements 
+# ************************************* access the tuples elements ***************************
 
 tuple_ = ("Python", "Tuple", "Ordered", "Collection")    
 print(tuple_[0])      
@@ -52,3 +52,23 @@ tuple_ = ("Python", "Tuple", "Ordered", "Collection")
 # Printing elements using negative indices    
 print("Element at -1 index: ", tuple_[-1])    
 print("Elements between -4 and -1 are: ", tuple_[-4:-1])  
+
+
+# ****************************************** Slicing **************************************
+
+tuple_ = ("Python", "Tuple", "Ordered", "Immutable", "Collection", "Objects")    
+# Using slicing to access elements of the tuple    
+print("Elements between indices 1 and 3: ", tuple_[1:3])    
+# Using negative indexing in slicing    
+print("Elements between indices 0 and -4: ", tuple_[:-4])    
+# Printing the entire tuple by using the default start and end values.     
+print("Entire tuple: ", tuple_[:])    
+
+
+
+# Python program to show repetition in tuples    
+tuple_ = ('Python',"Tuples")    
+print("Original tuple is: ", tuple_)    
+# Repeting the tuple elements    
+tuple_ = tuple_ * 3    
+print("New tuple is: ", tuple_)    
