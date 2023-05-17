@@ -28,3 +28,10 @@ Emp_Info={
 
 print(Emp_Info)
 print(Emp_Info['rollno'])
+
+
+# add data to an empty dictionary 
+user={}
+user['Nmae']='SandeepMoorani'
+user['age']=20
+print(user)
