@@ -50,3 +50,12 @@ for i in Emp_Info.values():
 
 for i in Emp_Info:
     print(i)
+
+
+# print(Emp_Info.items)
+A=Emp_Info.items()
+print(A)
+
+
+for key,value in Emp_Info.items():
+    print(f"key is {key} : value is {value}")
