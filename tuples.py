@@ -45,3 +45,10 @@ print( type(single_tuple) )
 tuple_ = ("Python", "Tuple", "Ordered", "Collection")    
 print(tuple_[0])      
 print(tuple_[1])   
+
+# negative indexing 
+
+tuple_ = ("Python", "Tuple", "Ordered", "Collection")    
+# Printing elements using negative indices    
+print("Element at -1 index: ", tuple_[-1])    
+print("Elements between -4 and -1 are: ", tuple_[-4:-1])  
