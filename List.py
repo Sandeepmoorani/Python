@@ -43,11 +43,20 @@
 
 # removing elements from list 
 
-list = [0,1,2,3,4]       
-print("printing original list: ");      
-for i in list:      
-    print(i,end=" ")      
-list.remove(2)      
-print("\nprinting the list after the removal of first element...")      
-for i in list:      
-    print(i,end=" ")    
+# list = [0,1,2,3,4]       
+# print("printing original list: ");      
+# for i in list:      
+#     print(i,end=" ")      
+# list.remove(2)      
+# print("\nprinting the list after the removal of first element...")      
+# for i in list:      
+#     print(i,end=" ")    
+
+list1 = [103, 675, 321, 782, 2000,100]  
+# large element in the list  
+print(max(list1))  
+
+
+list1 = [103, 675, 321, 782,0, 200]  
+# smallest element in the list  
+print(min(list1)) 
