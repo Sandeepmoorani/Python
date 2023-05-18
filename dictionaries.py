@@ -59,3 +59,13 @@ print(A)
 
 for key,value in Emp_Info.items():
     print(f"key is {key} : value is {value}")
+
+
+
+    # *********************Addd element in dictionary *********************************
+Emp_Info['district']='Tharparkar'
+print(Emp_Info)
+
+poped_elmt= Emp_Info.pop('age')
+print(poped_elmt)
+print(Emp_Info)
