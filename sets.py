@@ -29,3 +29,30 @@ print(x)
 
 x.remove(11)
 print(x)
+
+# discard()
+
+x.discard(10)
+print(x)
+
+# clear()
+
+
+x2.clear()
+print(x2)
+
+# for loop in sets
+
+for items in x:
+    print(items)
+
+
+    # in sets we perform two operation 
+
+    # 1)   Union 
+    # 2)   intersection 
+
+s1={1,2,3,4,5}
+s2={2,3,5,6,7,8,9,10}
+union_set=s1  | s2
+print(union_set)
