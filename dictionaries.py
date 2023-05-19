@@ -66,6 +66,29 @@ for key,value in Emp_Info.items():
 Emp_Info['district']='Tharparkar'
 print(Emp_Info)
 
+    # ************************* delete in dictionary ************************************
+
 poped_elmt= Emp_Info.pop('age')
 print(poped_elmt)
 print(Emp_Info)
+
+
+# ***************************** cubefinder **********************************
+
+def cube_finder(n):
+    cubes={}
+
+    for i in range(1,n+1):
+        cubes[i]=i**3
+    return cubes
+print(cube_finder(10))
+
+
+def square_finder(n):
+    squares={}
+    for i in range(1,n+1):
+        squares[i]=i**2
+    return squares
+print(square_finder(10))
+
+
