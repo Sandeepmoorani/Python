@@ -84,6 +84,10 @@ def cube_finder(n):
 print(cube_finder(10))
 
 
+
+# ****************************** square finder **************************
+
+
 def square_finder(n):
     squares={}
     for i in range(1,n+1):
@@ -92,3 +96,25 @@ def square_finder(n):
 print(square_finder(10))
 
 
+# **********************************************************************
+
+Employee = {"Name": "Sandeep", "Age": 20, "salary":555000,"Company":"GOOGLE"}    
+print(type(Employee))    
+print("printing Employee data .... ")    
+print("Name : %s" %Employee["Name"])    
+print("Age : %d" %Employee["Age"])    
+print("Salary : %d" %Employee["salary"])    
+print("Company : %s" %Employee["Company"])    
+
+
+# Employee = {"Name": "David", "Age": 30, "salary":55000,"Company":"GOOGLE"}      
+# print(type(Employee))      
+# print("printing Employee data .... ")      
+# print(Employee)      
+print("Enter the details of the new employee....");      
+Employee["Name"] = input("Name: ");      
+Employee["Age"] = int(input("Age: "));      
+Employee["salary"] = int(input("Salary: "));      
+Employee["Company"] = input("Company:");      
+print("printing the new data");      
+print(Employee)   
