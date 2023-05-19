@@ -38,3 +38,21 @@ print(new_list)
 
 new_list1=[name[0] for name in names]
 print(new_list1)
+
+
+# ***********************************************
+
+
+def reverse_string(l):
+    return [namees[::-1] for namees in l]
+print(reverse_string(['sandeep','Moorani','shahib']))
+
+
+numb=list(range(1,11))
+# print(numb)
+even_list=[i for i in numb if i%2==0]
+print(even_list)
+
+
+odd_list=[i for i in numb if i%2 !=0]
+print(odd_list)
