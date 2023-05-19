@@ -145,3 +145,37 @@ dict = {1: "Microsoft", 2: "Google", 3: "Facebook", 4: "Amazon", 5: "Flipkart"}
 dict_demo = dict.copy()  
 x = dict_demo.pop(1)  
 print(x)  
+
+
+# popitem() method  
+
+dict = {1: "Microsoft", 2: "Google", 3: "Facebook", 4: "Amazon", 5: "Flipkart"}  
+dict_demo.popitem()  
+print(dict_demo)  
+
+
+# keys() method  
+
+
+dict = {1: "Microsoft", 2: "Google", 3: "Facebook", 4: "Amazon", 5: "Flipkart"}  
+print(dict_demo.keys())  
+
+
+# get() method  
+
+dict = {1: "Microsoft", 2: "Google", 3: "Facebook", 4: "Amazon", 5: "Flipkart"}  
+print(dict_demo.get(3))  
+
+
+# update() method  
+
+dict = {1: "Microsoft", 2: "Google", 3: "Facebook", 4: "Amazon", 5: "Flipkart"}  
+dict_demo.update({3: "TCS"})  
+print(dict_demo)  
+
+
+# values() method  
+
+
+dict = {1: "Microsoft", 2: "Google", 3: "Facebook", 4: "Amazon", 5: "Flipkart"}  
+print(dict_demo.values())  
