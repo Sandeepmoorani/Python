@@ -26,3 +26,19 @@ print(add(2,3))
 
 multipy = lambda x,y : x*y
 print(multipy(5,5))
+
+
+# ************************************************************************
+
+# parameter 
+# *args 
+# default_parameter 
+# **kwargs 
+
+def func(name,*args,last_name="Moorani",**kwargs):
+    print(name)
+    print(args)
+    print(last_name)
+    print(kwargs)
+print(func('Sandeep',2,2,3 , x=2 ,y=4))
+
