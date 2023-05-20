@@ -16,3 +16,13 @@ def multipy(*args):
         multipy *=i
     return multipy
 print(multipy(2,3,4))
+
+
+# *********************************** Lambda ***************************
+
+add= lambda a,b : a+b
+print(add(2,3))
+
+
+multipy = lambda x,y : x*y
+print(multipy(5,5))
