@@ -19,4 +19,16 @@ class Person:
         return f"{self.name}  {self.last_name}"
 p1=Person('Sandeep','Moorani',20)
 print(p1.full_name())
+
+
+# ***********************************************************
+
+class Employee:    
+    id = 10   
+    name = "John"    
+    def display (self):    
+        print("ID: %d \nName: %s"%(self.id,self.name))    
+# Creating a emp instance of Employee class  
+emp = Employee()    
+emp.display()    
         
