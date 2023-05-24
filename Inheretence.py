@@ -99,3 +99,24 @@ class Derived(Calculation1,Calculation2):
         return a/b;  
 d = Derived()  
 print(isinstance(d,Derived))  
+
+
+
+# *******************************************
+
+# Method Overriding
+
+
+# We can provide some specific implementation of the parent class method in our child class. When the parent class method is defined in the child class with some specific implementation, then the concept is called method overriding. We may need to perform method overriding in the scenario where the different definition of a parent class method is needed in the child class.
+
+# Consider the following example to perform method overriding in python.
+
+
+class Animal:  
+    def speak(self):  
+        print("speaking")  
+class Dog(Animal):  
+    def speak(self):  
+        print("Barking")  
+d = Dog()  
+print(d.speak)
