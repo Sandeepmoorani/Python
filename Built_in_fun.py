@@ -108,8 +108,21 @@ print(callable(x))
 
 
 # compile string source to code  
-code_str = 'x=5\ny=10\nprint("sum =",x+y)'  
-code = compile(code_str, 'sum.py', 'exec')  
-print(type(code))  
-exec(code)  
-exec(x)  
+# code_str = 'x=5\ny=10\nprint("sum =",x+y)'  
+# code = compile(code_str, 'sum.py', 'exec')  
+# print(type(code))  
+# exec(code)  
+# exec(x)  
+
+
+
+# ****************************exec() Function*************************
+
+
+# The python exec() function is used for the dynamic execution of Python program which can either be a string or object code and it accepts large blocks of code, unlike the eval() function which only accepts a single expression.
+
+
+
+x = 8  
+exec('print(x==8)')  
+exec('print(x+4)')  
