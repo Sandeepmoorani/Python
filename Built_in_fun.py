@@ -89,3 +89,27 @@ print(test1,'is',bool(test1))
 string = "Hello World."  
 array = bytes(string, 'utf-8')  
 print(array)  
+
+# callable() Function  ********************************
+
+
+# A python callable() function in Python is something that can be called. This built-in function checks and returns true if the object passed appears to be callable, otherwise false.
+
+
+
+x = 8  
+print(callable(x))  
+
+
+
+# ************************************compile() Function********************
+
+# The python compile() function takes source code as input and returns a code object which can later be executed by exec() function.
+
+
+# compile string source to code  
+code_str = 'x=5\ny=10\nprint("sum =",x+y)'  
+code = compile(code_str, 'sum.py', 'exec')  
+print(type(code))  
+exec(code)  
+exec(x)  
