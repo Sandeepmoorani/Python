@@ -55,3 +55,37 @@ print(all(k))
 x =  10  
 y =  bin(x)  
 print (y)  
+
+
+# ****************************bool()*******************************
+
+# The python bool() converts a value to boolean(True or False) using the standard truth testing procedure.
+
+
+
+test1 = []  
+print(test1,'is',bool(test1))  
+test1 = [0]  
+print(test1,'is',bool(test1))  
+test1 = 0.0  
+print(test1,'is',bool(test1))  
+test1 = None  
+print(test1,'is',bool(test1))  
+test1 = True  
+print(test1,'is',bool(test1))  
+test1 = 'Easy string'  
+print(test1,'is',bool(test1))  
+
+
+# ******************************** byte() ***************************
+
+
+# The python bytes() in Python is used for returning a bytes object. It is an immutable version of the bytearray() function.
+
+# It can create empty bytes object of the specified size.
+
+
+
+string = "Hello World."  
+array = bytes(string, 'utf-8')  
+print(array)  
