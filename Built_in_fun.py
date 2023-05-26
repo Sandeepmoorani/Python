@@ -126,3 +126,18 @@ print(callable(x))
 x = 8  
 exec('print(x==8)')  
 exec('print(x+4)')  
+
+
+
+# **********************************sum() Function***************************
+
+
+# As the name says, python sum() function is used to get the sum of numbers of an iterable, i.e., list.
+
+
+
+s = sum([1, 2,4 ])  
+print(s)  
+  
+s = sum([1, 2, 4], 10)  
+print(s)  
