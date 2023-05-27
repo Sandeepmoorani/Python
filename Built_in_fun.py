@@ -161,3 +161,20 @@ print(any(l))
   
 l = []  
 print(any(l))  
+
+
+
+# ***********************************************ascii() Function*****************
+
+
+# The python ascii() function returns a string containing a printable representation of an object and escapes the non-ASCII characters in the string using \x, \u or \U escapes.
+
+
+
+normalText = 'Python is interesting'  
+print(ascii(normalText))  
+  
+otherText = 'Pythön is interesting'  
+print(ascii(otherText))  
+  
+print('Pyth\xf6n is interesting')  
