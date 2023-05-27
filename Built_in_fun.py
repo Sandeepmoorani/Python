@@ -201,3 +201,43 @@ print(arr)
 
 x = 8  
 print(eval('x + 1'))  
+
+# ***********************float()*******************
+
+
+# The python float() function returns a floating-point number from a number or string.
+
+
+
+# for integers  
+print(float(9))  
+  
+# for floats  
+print(float(8.19))  
+  
+# for string floats  
+print(float("-24.27"))  
+  
+# for string floats with whitespaces  
+print(float("     -17.19\n"))  
+  
+# string float error  
+# print(float("xyz"))  
+
+
+# *********************format() Function*****************
+
+# The python format() function returns a formatted representation of the given value.
+
+
+
+# d, f and b are a type  
+  
+# integer  
+print(format(123, "d"))  
+  
+# float arguments  
+print(format(123.4567898, "f"))  
+  
+# binary format  
+print(format(12, "b"))  
