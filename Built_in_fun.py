@@ -308,3 +308,40 @@ print(next(listIter))
   
 # prints '5'  
 print(next(listIter))  
+
+
+# ************************************locals() Function********************
+
+# The python locals() method updates and returns the dictionary of the current local symbol table.
+
+# A Symbol table is defined as a data structure which contains all the necessary information about the program. It includes variable names, methods, classes, etc.
+
+
+
+def localsAbsent():  
+    return locals()  
+  
+def localsPresent():  
+    present = True  
+    return locals()  
+  
+print('localsNotPresent:', localsAbsent())  
+print('localsPresent:', localsPresent())  
+
+
+# ****************************map() Function************************
+
+# The python map() function is used to return a list of results after applying a given function to each item of an iterable(list, tuple etc.).
+
+
+
+def calculateAddition(n):  
+  return n+n  
+  
+numbers = (1, 2, 3, 4)  
+result = map(calculateAddition, numbers)  
+print(result)  
+  
+# converting map object to set  
+numbersAddition = set(result)  
+print(numbersAddition)  
