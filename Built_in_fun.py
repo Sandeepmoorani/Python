@@ -178,3 +178,26 @@ otherText = 'Pythön is interesting'
 print(ascii(otherText))  
   
 print('Pyth\xf6n is interesting')  
+
+
+# ************************bytearray()***********************
+
+# The python bytearray() returns a bytearray object and can convert objects into bytearray objects, or create an empty bytearray object of the specified size.
+
+
+
+string = "Python is a programming language."  
+  
+# string with encoding 'utf-8'  
+arr = bytearray(string, 'utf-8')  
+print(arr)  
+
+
+# *******************eval() Function******************
+
+# The python eval() function parses the expression passed to it and runs python expression(code) within the program.
+
+
+
+x = 8  
+print(eval('x + 1'))  
