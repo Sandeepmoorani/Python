@@ -141,3 +141,23 @@ print(s)
   
 s = sum([1, 2, 4], 10)  
 print(s)  
+
+
+
+# ****************************any() Function************************
+
+
+# The python any() function returns true if any item in an iterable is true. Otherwise, it returns False.
+
+
+l = [4, 3, 2, 0]                              
+print(any(l))                                   
+  
+l = [0, False]  
+print(any(l))  
+  
+l = [0, False, 5]  
+print(any(l))  
+  
+l = []  
+print(any(l))  
