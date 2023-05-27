@@ -270,3 +270,41 @@ class Details:
 details = Details()  
 print('The age is:', getattr(details, "age"))  
 print('The age is:', details.age)  
+
+# *****************************globals() Function****************
+
+# The python globals() function returns the dictionary of the current global symbol table.
+
+# A Symbol table is defined as a data structure which contains all the necessary information about the program. It includes variable names, methods, classes, etc.
+
+age = 22  
+  
+globals()['age'] = 22  
+print('The age is:', age)  
+
+
+# ************************iter() Function****************************
+
+# The python iter() function is used to return an iterator object. It creates an object which can be iterated one element at a time.
+
+
+
+# list of numbers  
+list = [1,2,3,4,5]  
+  
+listIter = iter(list)  
+  
+# prints '1'  
+print(next(listIter))  
+  
+# prints '2'  
+print(next(listIter))  
+  
+# prints '3'  
+print(next(listIter))  
+  
+# prints '4'  
+print(next(listIter))  
+  
+# prints '5'  
+print(next(listIter))  
