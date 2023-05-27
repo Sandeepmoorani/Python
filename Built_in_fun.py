@@ -241,3 +241,32 @@ print(format(123.4567898, "f"))
   
 # binary format  
 print(format(12, "b"))  
+
+
+# *************************************rozenset()*********************************
+
+# The python frozenset() function returns an immutable frozenset object initialized with elements from the given iterable.
+
+
+
+# tuple of letters  
+letters = ('m', 'r', 'o', 't', 's')  
+  
+fSet = frozenset(letters)  
+print('Frozen set is:', fSet)  
+print('Empty frozen set is:', frozenset())  
+
+
+# ********************getattr() Function *******************************
+
+# The python getattr() function returns the value of a named attribute of an object. If it is not found, it returns the default value.
+
+
+
+class Details:  
+    age = 22  
+    name = "Phill"  
+  
+details = Details()  
+print('The age is:', getattr(details, "age"))  
+print('The age is:', details.age)  
