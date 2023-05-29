@@ -345,3 +345,36 @@ print(result)
 # converting map object to set  
 numbersAddition = set(result)  
 print(numbersAddition)  
+
+
+# **************************memoryview() Function *******************************
+
+# The python memoryview() function returns a memoryview object of the given argument.
+
+
+
+#A random bytearray  
+randomByteArray = bytearray('ABC', 'utf-8')  
+  
+mv = memoryview(randomByteArray)  
+  
+# access the memory view's zeroth index  
+print(mv[0])  
+  
+# It create byte from memory view  
+print(bytes(mv[0:2]))  
+  
+# It create list from memory view  
+# print(list(mv[0:3]))  
+
+
+# ********************object()****************************
+
+# The python object() returns an empty object. It is a base for all the classes and holds the built-in properties and methods which are default for all the classes.
+
+
+
+python = object()  
+  
+print(type(python))  
+print(dir(python))  
