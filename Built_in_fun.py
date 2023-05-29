@@ -378,3 +378,14 @@ python = object()
   
 print(type(python))  
 print(dir(python))  
+
+# ****************************open() Function******************************
+
+# The python open() function opens the file and returns a corresponding file object.
+
+
+
+# opens python.text file of the current directory  
+f = open("python.txt")  
+# specifying full path  
+f = open("C:/Python33/README.txt")  
