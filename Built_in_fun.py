@@ -386,6 +386,22 @@ print(dir(python))
 
 
 # opens python.text file of the current directory  
-f = open("python.txt")  
+# f = open("python.txt")  
 # specifying full path  
-f = open("C:/Python33/README.txt")  
+# f = open("C:/Python33/README.txt")  
+
+
+# *************************# chr() Function**********************************************
+
+# Python chr() function is used to get a string representing a character which points to a Unicode code integer. For example, chr(97) returns the string 'a'. This function takes an integer argument and throws an error if it exceeds the specified range. The standard range of the argument is from 0 to 1,114,111.
+
+
+
+# Calling function  
+result = chr(102) # It returns string representation of a char  
+result2 = chr(112)  
+# Displaying result  
+print(result)  
+print(result2)  
+# Verify, is it string type?  
+print("is it string type:", type(result) is str)  
