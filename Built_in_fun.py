@@ -420,3 +420,20 @@ b = complex(1,2) # Passing both parameters
 # Displaying result  
 print(a)  
 print(b)  
+
+# ****************delattr() Function*********************************
+# Python delattr() function is used to delete an attribute from a class. It takes two parameters, first is an object of the class and second is an attribute which we want to delete. After deleting the attribute, it no longer available in the class and throws an error if try to call it using the class object.
+
+
+
+class Student:  
+    id = 101  
+    name = "Pranshu"  
+    email = "pranshu@abc.com"  
+# Declaring function  
+    def getinfo(self):  
+        print(self.id, self.name, self.email)  
+s = Student()  
+s.getinfo()  
+# delattr(Student,'course') # Removing attribute which is not available  
+# s.getinfo() # error: throws an error  
