@@ -447,3 +447,15 @@ s.getinfo()
 att = dir()  
 # Displaying result  
 print(att)  
+
+# ***********************************************************
+# divmod() Function
+# Python divmod() function is used to get remainder and quotient of two numbers. This function takes two numeric arguments and returns a tuple. Both arguments are required and numeric
+
+
+
+# Python divmod() function example  
+# Calling function  
+result = divmod(10,2)  
+# Displaying result  
+print(result)  
