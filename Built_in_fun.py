@@ -493,3 +493,15 @@ result2 = dict(a=1,b=2)
 # Displaying result  
 print(result)  
 print(result2)  
+
+
+# ***********************************
+
+# dict() Function Example 2
+
+# Calling function  
+result = dict({'x': 5, 'y': 10}, z=20) # Creating dictionary using mapping  
+result2 = dict({'x': 5, 'y': 10, 'z':20})  
+# Displaying result  
+print(result)  
+print(result2)  
