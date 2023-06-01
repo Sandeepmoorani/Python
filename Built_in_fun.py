@@ -442,7 +442,7 @@ s.getinfo()
 # dir() Function
 # Python dir() function returns the list of names in the current local scope. If the object on which method is called has a method named __dir__(), this method will be called and must return the list of attributes. It takes a single object type argument.
 
-
+# pyhton builtin functions
 # Calling function  
 att = dir()  
 # Displaying result  
