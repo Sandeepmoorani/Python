@@ -505,3 +505,11 @@ result2 = dict({'x': 5, 'y': 10, 'z':20})
 # Displaying result  
 print(result)  
 print(result2)  
+
+# *******************************************888
+
+result = dict([(1, 'One'), [2, 'Two'], [3,'Three']]) # Creating using iterable  
+result2 = dict([['x','X'],('y','Y')])  
+# Displaying result  
+print(result)  
+print(result2)  
