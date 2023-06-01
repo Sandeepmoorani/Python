@@ -459,3 +459,37 @@ print(att)
 result = divmod(10,2)  
 # Displaying result  
 print(result)  
+
+# **************************************************************
+# dict() Function
+# Python dict() function is a constructor which creates a dictionary. Python dictionary provides three different constructors to a create dictionary.
+
+# If no argument is passed, it creates an empty dictionary.
+# If a positional argument is given, a dictionary is created with the same key-value pairs. Otherwise, pass an iterable object.
+# If keyword arguments are given, the keyword arguments and their values are added to the dictionary created from the positional argument.
+
+# dict ([**kwargs])  
+# dict ([mapping, **kwargs])  
+# dict ([iterable, **kwargs]) 
+
+# Parameters
+# kwargs: It is a keyword argument.
+
+# mapping: It is another dictionary.
+
+# iterable: It is an iterable object in the form of a key-value pair(s).
+
+
+
+# ******************************************
+
+# Python dict() Function Example 1
+# A simple example to create an empty or non-empty dictionary. Arguments of the dictionary are optional.
+
+
+# Calling function  
+result = dict() # returns an empty dictionary  
+result2 = dict(a=1,b=2)  
+# Displaying result  
+print(result)  
+print(result2)  
