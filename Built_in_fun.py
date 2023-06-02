@@ -551,23 +551,23 @@ print(result2)
 
 # Python filter() function example  
 # Calling function  
-result = filter(None,(1,0,6)) # returns all non-zero values  
-result2 = filter(None,(1,0,False,True)) # returns all non-zero and True values  
-# Displaying result  
-result = list(result)  
-result2 = list(result2)  
-print(result)  
-print(result2)  
+# result = filter(None,(1,0,6)) # returns all non-zero values  
+# result2 = filter(None,(1,0,False,True)) # returns all non-zero and True values  
+# # Displaying result  
+# result = list(result)  
+# result2 = list(result2)  
+# print(result)  
+# print(result2)  
 
 
 
 # filter() Function Example 3
 # Python filter() function example  
-def mulof3(val):  
-    if val%3==0:  
-        return val  
-# Calling function  
-result = filter(mulof3,(1,3,5,6,8,9,12,14))  
-# Displaying result  
-result = list(result)  
-print(result) # multiples of 3  
+# def mulof3(val):  
+#     if val%3==0:  
+#         return val  
+# # Calling function  
+# result = filter(mulof3,(1,3,5,6,8,9,12,14))  
+# # Displaying result  
+# result = list(result)  
+# print(result) # multiples of 3  
