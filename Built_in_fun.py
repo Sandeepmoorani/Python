@@ -542,3 +542,19 @@ def filterdata(x):
 result = filter(filterdata,(1,2,6))  
 # Displaying result  
 print(list(result))  
+
+
+
+
+# filter() Function Example 2
+# This function takes the first argument as a function and if no function is passed. It requires None to pass which returns all the True values. See the example below.
+
+# Python filter() function example  
+# Calling function  
+result = filter(None,(1,0,6)) # returns all non-zero values  
+result2 = filter(None,(1,0,False,True)) # returns all non-zero and True values  
+# Displaying result  
+result = list(result)  
+result2 = list(result2)  
+print(result)  
+print(result2)  
