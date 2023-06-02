@@ -508,8 +508,37 @@ print(result2)
 
 # *******************************************888
 
-result = dict([(1, 'One'), [2, 'Two'], [3,'Three']]) # Creating using iterable  
-result2 = dict([['x','X'],('y','Y')])  
+# result = dict([(1, 'One'), [2, 'Two'], [3,'Three']]) # Creating using iterable  
+# result2 = dict([['x','X'],('y','Y')])  
+# # Displaying result  
+# print(result)  
+# print(result2)  
+
+# ***********************************************88
+
+
+# filter() Function
+# Python filter() function is used to get filtered elements. This function takes two arguments, first is a function and the second is iterable. The filter function returns a sequence from those elements of iterable for which function returns True.
+
+# The first argument can be None if the function is not available and returns only elements that are True.
+
+# function: It is a function. If set to None returns only elements that are True.
+
+# Iterable: Any iterable sequence like list, tuple, and string.
+
+# Return
+# It returns the same as returned by the function.
+
+# Let's see some examples of filter() function to understand it's functionality.
+
+# Python filter() Function Example 1
+# This simple example returns values higher than 5 using filter function. See the below example.
+
+# Python filter() function example  
+def filterdata(x):  
+    if x>5:  
+        return x  
+# Calling function  
+result = filter(filterdata,(1,2,6))  
 # Displaying result  
-print(result)  
-print(result2)  
+print(list(result))  
