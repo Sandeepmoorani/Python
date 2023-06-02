@@ -571,3 +571,22 @@ print(result2)
 # # Displaying result  
 # result = list(result)  
 # print(result) # multiples of 3  
+
+
+
+# **********************************************************************
+
+#  hash() Function
+# Python has() function is used to get the hash value of an object. Python calculates the hash value by using the hash algorithm. The hash values are integers an used to compare dictionary keys during a dictionary lookup. We can hash only these types:
+
+# Hashable types: * bool * int * long * float * string * Unicode * tuple * code object
+
+# We cannot hash of these types:
+
+# Non-hashable types: * bytearray * list * set * dictionary * memoryview
+
+result = hash(21) # integer value  
+result2 = hash(22.2) # decimal value  
+# Displaying result  
+print(result)  
+print(result2)  
