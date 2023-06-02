@@ -535,13 +535,13 @@ print(result2)
 # This simple example returns values higher than 5 using filter function. See the below example.
 
 # Python filter() function example  
-def filterdata(x):  
-    if x>5:  
-        return x  
-# Calling function  
-result = filter(filterdata,(1,2,6))  
-# Displaying result  
-print(list(result))  
+# def filterdata(x):  
+#     if x>5:  
+#         return x  
+# # Calling function  
+# result = filter(filterdata,(1,2,6))  
+# # Displaying result  
+# print(list(result))  
 
 
 
@@ -558,3 +558,16 @@ result = list(result)
 result2 = list(result2)  
 print(result)  
 print(result2)  
+
+
+
+# filter() Function Example 3
+# Python filter() function example  
+def mulof3(val):  
+    if val%3==0:  
+        return val  
+# Calling function  
+result = filter(mulof3,(1,3,5,6,8,9,12,14))  
+# Displaying result  
+result = list(result)  
+print(result) # multiples of 3  
