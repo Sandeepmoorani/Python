@@ -590,3 +590,11 @@ result2 = hash(22.2) # decimal value
 # Displaying result  
 print(result)  
 print(result2)  
+
+
+
+result = hash("javatpoint") # string value  
+result2 = hash((1,2,22)) # tuple value  
+# Displaying result  
+print(result)  
+print(result2)  
