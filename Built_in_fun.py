@@ -622,4 +622,9 @@ info = help(1) # integer value
 
 info = help(list) # integer value  
 # Displaying result  
+# print(info)  
+
+
+info = help("Javatpoint") # integer value  
+# Displaying result  
 print(info)  
