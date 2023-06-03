@@ -611,4 +611,15 @@ print(result2)
 # Calling function  
 info = help() # No argument  
 # Displaying result  
+# print(info)  
+
+
+
+info = help(1) # integer value  
+# Displaying result  
+# print(info)  
+
+
+info = help(list) # integer value  
+# Displaying result  
 print(info)  
