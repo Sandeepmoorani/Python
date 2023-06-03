@@ -598,3 +598,17 @@ result2 = hash((1,2,22)) # tuple value
 # Displaying result  
 print(result)  
 print(result2)  
+
+
+# ****************************************************************************************
+# help() Function
+# Python help() function is used to get help related to the object passed during the call. It takes an optional parameter and returns help information. If no argument is given, it shows the Python help console. It internally calls python's help function.
+
+# Signature
+# help(object)  
+
+
+# Calling function  
+info = help() # No argument  
+# Displaying result  
+print(info)  
