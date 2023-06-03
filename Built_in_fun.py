@@ -609,23 +609,23 @@ print(result2)
 
 
 # Calling function  
-info = help() # No argument  
+# info = help() # No argument  
 # Displaying result  
 # print(info)  
 
 
 
-info = help(1) # integer value  
+# info = help(1) # integer value  
 # Displaying result  
 # print(info)  
 
 
-info = help(list) # integer value  
+# info = help(list) # integer value  
 # Displaying result  
 # print(info)  
 
 
-info = help("Javatpoint") # integer value  
+# info = help("Javatpoint") # integer value  
 # Displaying result  
 # print(info)  
 
@@ -655,6 +655,15 @@ info = help("Javatpoint") # integer value
 # Calling function  
 small = min(2225,325,2025) # returns smallest element  
 small2 = min(1000.25,2025.35,5625.36,10052.50)  
+# Displaying result  
+print(small)  
+print(small2)  
+
+
+
+
+small = min('a','A','b','B') # returns smallest element  
+small2 = min([10,12],[12,21],[13,15])  
 # Displaying result  
 print(small)  
 print(small2)  
