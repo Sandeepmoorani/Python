@@ -627,4 +627,34 @@ info = help(list) # integer value
 
 info = help("Javatpoint") # integer value  
 # Displaying result  
-print(info)  
+# print(info)  
+
+# ************************************************************
+
+
+# min() Function
+# Python min() function is used to get the smallest element from the collection. This function takes two arguments, first is a collection of elements and second is key and returns the smallest element from the collection.
+
+# Signature
+# min (collection[, key])  
+
+
+# collection: It is a comma-separated list of elements.
+
+# key: Specifies a one-argument ordering function.
+
+# Return
+# It returns the smallest element from the collection.
+
+# Let's see some examples of min() function to understand it's functionality.
+
+# Python min() Function Example 1
+# A simple example to get the smallest element from the collection. See the below example.
+
+# Python min() function example  
+# Calling function  
+small = min(2225,325,2025) # returns smallest element  
+small2 = min(1000.25,2025.35,5625.36,10052.50)  
+# Displaying result  
+print(small)  
+print(small2)  
