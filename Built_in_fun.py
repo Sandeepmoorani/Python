@@ -667,3 +667,11 @@ small2 = min([10,12],[12,21],[13,15])
 # Displaying result  
 print(small)  
 print(small2)  
+
+
+
+small = min("Python","Java","Scala") # returns smallest element  
+small2 = min([10,12,33],[12,21,55],[13,15], key=len) # returns smallest element's length  
+# Displaying result  
+print(small)  
+print(small2)  
