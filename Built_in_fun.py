@@ -732,3 +732,10 @@ result2 = hex(342)
 # Displaying result  
 print(result)  
 print(result2)  
+
+
+result = float.hex(1.5) # float value  
+result2 = float.hex(-238.15) # float value  
+# Displaying result  
+print(result)  
+print(result2)
