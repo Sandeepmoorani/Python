@@ -703,3 +703,15 @@ result3 = set({1:'One',2:'Two',3:'Three'})
 print(result)  
 print(result2)  
 print(result3)  
+
+
+
+def geteven(data):  
+    if data%2 == 0:  
+        return data  
+      
+evenval = filter(geteven,[2,5,6,9,8,4])  
+# Calling function  
+result = set(evenval)  
+# Displaying result  
+print(result)  
