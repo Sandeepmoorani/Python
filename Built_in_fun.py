@@ -692,3 +692,14 @@ result3 = set('javatpoint')
 print(result)  
 print(result2)  
 print(result3)  
+
+
+
+
+result = set(['12','13','15'])  
+result2 = set(('j','a','v','a','t','p','o','i','n','t'))  
+result3 = set({1:'One',2:'Two',3:'Three'})  
+# Displaying result  
+print(result)  
+print(result2)  
+print(result3)  
