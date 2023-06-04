@@ -715,3 +715,20 @@ evenval = filter(geteven,[2,5,6,9,8,4])
 result = set(evenval)  
 # Displaying result  
 print(result)  
+
+
+# **************************************************************************
+
+
+# hex() Function
+# Python hex() function is used to generate hex value of an integer argument. It takes an integer argument and returns an integer converted into a hexadecimal string. In case, we want to get a hexadecimal value of a float then use float.hex() function. The signature of the function is given below.
+
+# Signature
+# hex (integer) 
+
+
+result = hex(1) # integer value  
+result2 = hex(342)   
+# Displaying result  
+print(result)  
+print(result2)  
