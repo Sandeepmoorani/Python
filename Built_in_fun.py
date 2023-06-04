@@ -675,3 +675,20 @@ small2 = min([10,12,33],[12,21,55],[13,15], key=len) # returns smallest element'
 # Displaying result  
 print(small)  
 print(small2)  
+
+# *************************************************************
+
+
+# set() Function
+# In python, a set is a built-in class, and this function is a constructor of this class. It is used to create a new set using elements passed during the call. It takes iterable as an argument and returns a new set object. The constructor syntax is given below.
+
+# Signature
+# set([iterable])  
+
+result = set() # empty set  
+result2 = set('12')  
+result3 = set('javatpoint')  
+# Displaying result  
+print(result)  
+print(result2)  
+print(result3)  
