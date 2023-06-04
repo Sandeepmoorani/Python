@@ -739,3 +739,37 @@ result2 = float.hex(-238.15) # float value
 # Displaying result  
 print(result)  
 print(result2)
+
+# ************************************************************************************
+
+
+# id() Function
+# Python id() function returns an identity of an object. This is an integer which is guaranteed to be unique. This function takes an argument an object and returns a unique integer number which represents identity. Two objects with non-overlapping lifetimes may have the same id() value.
+
+# Signature
+# id (object)  
+
+val = id("Javatpoint") # string object  
+val2 = id(1200) # integer object  
+val3 = id([25,336,95,236,92,3225]) # List object  
+# Displaying result  
+print(val)  
+print(val2)  
+print(val3)  
+
+
+
+
+# Python id() function example  
+class Student:  
+    def __init__(self, id, name):  
+        self.id = id  
+        self.name = name  
+          
+student = Student(101,"Mohan")          
+print(student.id)  
+print(student.name)  
+# Calling function  
+val = id(student) # student class object  
+# Displaying result  
+print("Object id:",val)  
