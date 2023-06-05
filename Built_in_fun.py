@@ -816,11 +816,29 @@ print((id1==id2),(id1==id3))
 
 
 
-val = 10  
-lst = [12,34,5,6,767]  
-name = "Mohan"  
-# Calling function   
-print(isinstance(val, int)) # isinstance of int class  
-print(isinstance(lst, list)) # True  
-print(isinstance(name, str)) # True  
-print(isinstance(val, list)) # False  
+# val = 10  
+# lst = [12,34,5,6,767]  
+# name = "Mohan"  
+# # Calling function   
+# print(isinstance(val, int)) # isinstance of int class  
+# print(isinstance(lst, list)) # True  
+# print(isinstance(name, str)) # True  
+# print(isinstance(val, list)) # False  
+
+# *****************************************************************
+# oct() Function
+# Python oct() function is used to get an octal value of an integer number. This method takes an argument and returns an integer converted into an octal string. It throws an error TypeError if argument type is other than an integer.
+
+# The signature of oct() function is given below.
+
+# Signature
+# oct (integer)  
+
+
+# val = oct(10)  
+# # Displaying result  
+# print("Octal value of 10:",val)  
+
+val = oct(10.25)  
+# Displaying result  
+print("Octal value of 10.25:",val)  
