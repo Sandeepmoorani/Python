@@ -801,15 +801,26 @@ print((id1==id2),(id1==id3))
 # Signature
 # isinstance(object, classinfo) 
 
-class Student:  
-    id = 101  
-    name = "John"  
-    def __init__(self, id, name):  
-        self.id=id  
-        self.name=name  
+# class Student:  
+#     id = 101  
+#     name = "John"  
+#     def __init__(self, id, name):  
+#         self.id=id  
+#         self.name=name  
   
-student = Student(1010,"John")  
+# student = Student(1010,"John")  
+# lst = [12,34,5,6,767]  
+# # Calling function   
+# print(isinstance(student, Student)) # isinstance of Student class  
+# print(isinstance(lst, Student))  
+
+
+
+val = 10  
 lst = [12,34,5,6,767]  
+name = "Mohan"  
 # Calling function   
-print(isinstance(student, Student)) # isinstance of Student class  
-print(isinstance(lst, Student))  
+print(isinstance(val, int)) # isinstance of int class  
+print(isinstance(lst, list)) # True  
+print(isinstance(name, str)) # True  
+print(isinstance(val, list)) # False  
