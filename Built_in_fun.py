@@ -852,3 +852,22 @@ val2 = oct(0XAF) # Hexadecimal to octal
 print("Octal value of 0b0101:",val)  
 # hexadecimal number  
 print("Octal value of 0XAF:",val2)  
+
+
+# *******************************************************************
+
+# int() Function
+# Python int() function is used to get the integer value. It returns an expression converted into an integer number. If the argument is a floating point, the conversion truncates the number. If the argument is outside the integer range, It converts the number into long type.
+
+# If the number is not a number or if a base is given, the number must be a string.
+
+# Signature
+# int(x, base=10)  
+
+
+
+val = int(10) # integer value  
+val2 = int(10.52) # float value  
+val3 = int('10') # string value  
+# Displaying result  
+print("integer values :",val, val2, val3)  
