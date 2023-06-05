@@ -789,3 +789,27 @@ print((l1==l2),(l1==l3))
 # Objects with the same values can have different ids  
 print((id1==id2),(id1==id3))  
 # l1 and l2 returns True, while id1 and id2 returns False  
+
+
+# ********************************************************************************
+
+# isinstance() Function
+# Python isinstance() function is used to check whether the given object is an instance of that class. If the object belongs to the class, it returns True. Otherwise returns False. It also returns true if the class is a subclass.
+
+# The isinstance() function takes two arguments object and classinfo and returns either True or False. The signature of the function is given below.
+
+# Signature
+# isinstance(object, classinfo) 
+
+class Student:  
+    id = 101  
+    name = "John"  
+    def __init__(self, id, name):  
+        self.id=id  
+        self.name=name  
+  
+student = Student(1010,"John")  
+lst = [12,34,5,6,767]  
+# Calling function   
+print(isinstance(student, Student)) # isinstance of Student class  
+print(isinstance(lst, Student))  
