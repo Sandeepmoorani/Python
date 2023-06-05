@@ -839,6 +839,16 @@ print((id1==id2),(id1==id3))
 # # Displaying result  
 # print("Octal value of 10:",val)  
 
-val = oct(10.25)  
+# val = oct(10.25)  
+# # Displaying result  
+# print("Octal value of 10.25:",val)  
+
+
+
+val  = oct(0b0101) # Binary to octal  
+val2 = oct(0XAF) # Hexadecimal to octal  
 # Displaying result  
-print("Octal value of 10.25:",val)  
+# binary number  
+print("Octal value of 0b0101:",val)  
+# hexadecimal number  
+print("Octal value of 0XAF:",val2)  
