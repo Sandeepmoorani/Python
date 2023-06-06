@@ -13,19 +13,31 @@
 
 f=open('file.txt')
 
-print(f'curser position -- {f.tell()}')
-print(f.read())
+# print(f'curser position -- {f.tell()}')
+# print(f.read())
 
-print(f'curser position -- {f.tell()}')
+# print(f'curser position -- {f.tell()}')
 
-print('before seek method :')
-f.seek(2)
-print('after seek method')
+# print('before seek method :')
+# f.seek(2)
+# print('after seek method')
 
 
-print(f'curser position -- {f.tell()}')
-print(f.read())
-f.close()
+# print(f'curser position -- {f.tell()}')
+# print(f.read())
+# f.close()
 
 # f.readline()
-# f.readlines()
+
+lines=f.readlines()
+print(len(lines))
+
+# name                  tell us name of file
+# closed                return ture or false
+
+print(f.name)
+
+f.close()
+
+print(f.closed)
+
