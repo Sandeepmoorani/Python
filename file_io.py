@@ -1,3 +1,49 @@
+# 1	r	It opens the file to read-only mode. The file pointer exists at the beginning. The file is by default open in this mode if no access mode is passed.
+
+# 2	rb	It opens the file to read-only in binary format. The file pointer exists at the beginning of the file.
+
+# 3	r+	It opens the file to read and write both. The file pointer exists at the beginning of the file.
+
+# 4	rb+	It opens the file to read and write both in binary format. The file pointer exists at the beginning of the file.
+
+# 5	w	It opens the file to write only. It overwrites the file if previously exists or creates a new one if no file exists with the same name. The file pointer exists at the beginning of the file.
+
+# 6	wb	It opens the file to write only in binary format. It overwrites the file if it exists previously or creates a new one if no file exists. The file pointer exists at the beginning of the file.
+
+# 7	w+	It opens the file to write and read both. It is different from r+ in the sense that it overwrites the previous file if one exists whereas r+ doesn't overwrite the previously written file. It creates a new file if no file exists. The file pointer exists at the beginning of the file.
+
+# 8	wb+	It opens the file to write and read both in binary format. The file pointer exists at the beginning of the file.
+
+# 9	a	It opens the file in the append mode. The file pointer exists at the end of the previously written file if exists any. It creates a new file if no file exists with the same name.
+
+# 10	ab	It opens the file in the append mode in binary format. The pointer exists at the end of the previously written file. It creates a new file in binary format if no file exists with the same name.
+
+# 11	a+	It opens a file to append and read both. The file pointer remains at the end of the file if a file exists. It creates a new file if no file exists with the same name.
+
+# 12	ab+	It opens a file to append and read both in binary format. The file pointer remains at the end of the file.
+
+
+f = open("file.txt","r")    
+    
+if f:    
+    print("file is opened successfully")   
+
+with open("file.txt",'r') as f:    
+    content = f.read();    
+    print(content)    
+
+
+
+file= open("file.txt", "w")  
+  
+file.write('''''Python is the modern day language. It makes things so simple. 
+It is the fastest-growing programing language''')  
+fr=file.read()
+print(fr)
+file.close()
+
+
+
 # open()        used to open the file
 # close()       close the file
 # read()        to read the file
@@ -11,7 +57,7 @@
 
 
 
-f=open('file.txt')
+# f=open('file.txt')
 
 # print(f'curser position -- {f.tell()}')
 # print(f.read())
@@ -29,15 +75,16 @@ f=open('file.txt')
 
 # f.readline()
 
-lines=f.readlines()
-print(len(lines))
+# lines=f.readlines()
+# print(len(lines))
 
 # name                  tell us name of file
 # closed                return ture or false
 
-print(f.name)
+# print(f.name)
 
-f.close()
+# f.close()
 
-print(f.closed)
+# print(f.closed)
+
 
