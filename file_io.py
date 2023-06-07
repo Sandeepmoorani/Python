@@ -23,24 +23,35 @@
 # 12	ab+	It opens a file to append and read both in binary format. The file pointer remains at the end of the file.
 
 
-f = open("file.txt","r")    
+# f = open("file.txt","r")    
     
-if f:    
-    print("file is opened successfully")   
+# if f:    
+#     print("file is opened successfully")   
 
-with open("file.txt",'r') as f:    
-    content = f.read();    
-    print(content)    
+# with open("file.txt",'r') as f:    
+#     content = f.read();    
+#     print(content)    
 
 
 
-file= open("file.txt", "w")  
+# file= open("file.txt", "w")  
   
-file.write('''''Python is the modern day language. It makes things so simple. 
-It is the fastest-growing programing language''')  
-fr=file.read()
-print(fr)
-file.close()
+# file.write('''''Python is the modern day language. It makes things so simple. 
+# It is the fastest-growing programing language''')  
+# fr=file.read()
+# print(fr)
+# file.close()
+
+
+
+#open the file.txt in write mode.    
+fileptr = open("file2.txt","a")  
+    
+#overwriting the content of the file    
+fileptr.write(" Python has an easy syntax and user-friendly interaction.")    
+print(fileptr.read())
+#closing the opened file     
+fileptr.close()  
 
 
 
