@@ -20,6 +20,26 @@
 
 
 
+
+# **************************************************************************
+# try:  
+    # Code block  
+    # These statements are those which can probably have some error  
+  
+# except:  
+    # This block is optional.  
+    # If the try block encounters an exception, this block will handle it.  
+  
+# else:  
+    # If there is no exception, this code block will be executed by the Python interpreter  
+  
+# finally:  
+    # Python interpreter will always execute this code.  
+
+    # ************************************************************************
+
+
+
 def reciprocal( num1 ):  
     try:  
         reci = 1 / num1  
