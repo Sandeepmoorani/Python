@@ -32,3 +32,13 @@ print(os.name)
 
 import os  
 os.mkdir("d:\\newdir")  
+
+
+
+
+# os.getcwd()
+# It returns the current working directory(CWD) of the file.
+
+
+import os     
+print(os.getcwd())     
