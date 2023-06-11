@@ -57,16 +57,34 @@ import csv
 #             print(f'Column names are {", ".join(row)}')    
 #             line_count += 1
 
-with open('python.txt', mode='r') as csv_file:    
-    csv_reader = csv.DictReader(csv_file)    
-    line_count = 0    
-    for row in csv_reader:    
-        if line_count == 0:    
-            print(f'The Column names are as follows {", ".join(row)}')    
-            line_count += 1    
-        print(f'\t{row["name"]} works in the {row["department"]} department, and was born in {row["birthday month"]}.')    
-        line_count += 1    
-    print(f'Processed {line_count} lines.')
+# with open('python.txt', mode='r') as csv_file:    
+#     csv_reader = csv.DictReader(csv_file)    
+#     line_count = 0    
+#     for row in csv_reader:    
+#         if line_count == 0:    
+#             print(f'The Column names are as follows {", ".join(row)}')    
+#             line_count += 1    
+#         print(f'\t{row["name"]} works in the {row["department"]} department, and was born in {row["birthday month"]}.')    
+#         line_count += 1    
+#     print(f'Processed {line_count} lines.')
+
+
+
+
+# import csv    
+     
+with open('Python.csv', 'w') as csvfile:    
+    fieldnames = ['first_name', 'last_name', 'Rank']    
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)    
+     
+    writer.writeheader()    
+    writer.writerow({'Rank': 'B', 'first_name': 'Parker', 'last_name': 'Brian'})    
+    writer.writerow({'Rank': 'A', 'first_name': 'Smith',    
+                     'last_name': 'Rodriguez'})    
+    writer.writerow({'Rank': 'B', 'first_name': 'Jane', 'last_name': 'Oscar'})    
+    writer.writerow({'Rank': 'B', 'first_name': 'Jane', 'last_name': 'Loive'})    
+     
+print("Writing complete")    
 
 
 
