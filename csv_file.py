@@ -73,18 +73,18 @@ import csv
 
 # import csv    
      
-with open('Python.csv', 'w') as csvfile:    
-    fieldnames = ['first_name', 'last_name', 'Rank']    
-    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)    
+# with open('Python.csv', 'w') as csvfile:    
+#     fieldnames = ['first_name', 'last_name', 'Rank']    
+#     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)    
      
-    writer.writeheader()    
-    writer.writerow({'Rank': 'B', 'first_name': 'Parker', 'last_name': 'Brian'})    
-    writer.writerow({'Rank': 'A', 'first_name': 'Smith',    
-                     'last_name': 'Rodriguez'})    
-    writer.writerow({'Rank': 'B', 'first_name': 'Jane', 'last_name': 'Oscar'})    
-    writer.writerow({'Rank': 'B', 'first_name': 'Jane', 'last_name': 'Loive'})    
+#     writer.writeheader()    
+#     writer.writerow({'Rank': 'B', 'first_name': 'Parker', 'last_name': 'Brian'})    
+#     writer.writerow({'Rank': 'A', 'first_name': 'Smith',    
+#                      'last_name': 'Rodriguez'})    
+#     writer.writerow({'Rank': 'B', 'first_name': 'Jane', 'last_name': 'Oscar'})    
+#     writer.writerow({'Rank': 'B', 'first_name': 'Jane', 'last_name': 'Loive'})    
      
-print("Writing complete")    
+# print("Writing complete")    
 
 
 
@@ -100,3 +100,28 @@ print("Writing complete")
 # csv.QUOTE_ALL - It instructs the writer objects to quote all fields. csv.QUOTE_MINIMAL - It instructs the writer objects to quote only those fields which contain special characters such as quotechar, delimiter, etc.
 # csv.QUOTE_NONNUMERIC - It instructs the writer objects to quote all the non-numeric fields.
 # csv.QUOTE_NONE - It instructs the writer object never to quote the fields.
+
+
+# *****************************************************************************
+
+# Excel is a spreadsheet application which is developed by Microsoft. It is an easily accessible tool to organize, analyze, and store the data in tables. It is widely used in many different applications all over the world. From Analysts to CEOs, various professionals use Excel for both quick stats and serious data crunching.
+
+# Reading from an Excel file
+# First, you need to write a command to install the xlrd module.
+
+
+# pip install xlrd    
+
+
+# Import the xlrd module      
+import xlrd     
+      
+# Define the location of the file     
+loc = ("path of file")     
+      
+# To open the Workbook     
+wb = xlrd.open_workbook(loc)     
+sheet = wb.sheet_by_index(0)     
+      
+# For row 0 and column 0     
+sheet.cell_value(0, 0)  
