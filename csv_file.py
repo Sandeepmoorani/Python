@@ -48,7 +48,7 @@
     # A csv stands for "comma separated values", which is defined as a simple file format that uses specific structuring to arrange tabular data. It stores tabular data such as spreadsheet or database in plain text and has a common format for data interchange. A csv file opens into the excel sheet, and the rows and columns data define the standard format.
 
 
-import csv    
+# import csv    
 # with open('python.csv') as csv_file:    
 #     csv_reader = csv.reader(csv_file, delimiter=',')    
 #     line_count = 0    
@@ -114,14 +114,41 @@ import csv
 
 
 # Import the xlrd module      
-import xlrd     
+# import xlrd     
       
 # Define the location of the file     
-loc = ("path of file")     
+# loc = ("path of file")     
       
 # To open the Workbook     
-wb = xlrd.open_workbook(loc)     
-sheet = wb.sheet_by_index(0)     
+# wb = xlrd.open_workbook(loc)     
+# sheet = wb.sheet_by_index(0)     
       
 # For row 0 and column 0     
-sheet.cell_value(0, 0)  
+# sheet.cell_value(0, 0)  
+
+# *********************************************************************************
+
+# write exel file 
+
+# import xlsxwriter module     
+import xlsxwriter     
+      
+book = xlsxwriter.Book('Example2.xlsx')     
+sheet = book.add_sheet()     
+       
+# Rows and columns are zero indexed.     
+row = 0    
+column = 0    
+      
+content = ["Parker", "Smith", "John"]     
+      
+# iterating through the content list     
+for item in content :     
+      
+    # write operation perform     
+    sheet.write(row, column, item)     
+      
+    # incrementing the value of row by one with each iterations.     
+    row += 1    
+          
+book.close()     
