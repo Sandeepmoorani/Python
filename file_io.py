@@ -45,23 +45,23 @@
 
 
 #open the file.txt in write mode.    
-fileptr = open("file.txt","a")  
+# fileptr = open("file.txt","a")  
     
 #overwriting the content of the file    
-fileptr.write(" Python has an easy syntax and user-friendly interaction.")    
+# fileptr.write(" Python has an easy syntax and user-friendly interaction.")    
 # print(fileptr.read())
 #closing the opened file     
-fileptr.close()  
+# fileptr.close()  
 
 
 
 
 
-try:  
-   fileptr = open("file.txt")  
-   # perform file operations  
-finally:  
-   fileptr.close()  
+# try:  
+#    fileptr = open("file.txt")  
+#    # perform file operations  
+# finally:  
+#    fileptr.close()  
 
 
 with open("file.txt",'r') as f:    
@@ -113,3 +113,13 @@ with open("file.txt",'r') as f:
 # print(f.closed)
 
 
+
+
+# *****************************************************************************************888888888
+# To open the file, use the built-in open() function.
+
+# The open() function returns a file object, which has a read() method for reading the content of the file:
+
+
+f = open("file.txt", "r")
+print(f.read())
