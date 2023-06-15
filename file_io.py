@@ -131,5 +131,19 @@ print(f.read())
 
 # Open a file on a different location:
 
-f = open("D:\\myfiles\welcome.txt", "r")
-print(f.read())
+# f = open("D:\\myfiles\welcome.txt", "r")
+# print(f.read())
+
+
+
+
+
+
+# Read Only Parts of the File
+# By default the read() method returns the whole text, but you can also specify how many characters you want to return:
+
+
+# Return the 5 first characters of the file:
+
+f = open("file.txt", "r")
+print(f.read(5))
