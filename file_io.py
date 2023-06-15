@@ -147,3 +147,12 @@ print(f.read())
 
 f = open("file.txt", "r")
 print(f.read(5))
+
+
+
+
+# Loop through the file line by line:
+
+f = open("file.txt", "r")
+for x in f:
+  print(x)
