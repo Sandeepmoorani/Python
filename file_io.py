@@ -156,3 +156,14 @@ print(f.read(5))
 f = open("file.txt", "r")
 for x in f:
   print(x)
+
+
+
+
+
+
+#   Close the file when you are finish with it:
+
+f = open("file.txt", "r")
+print(f.readline())
+f.close()
