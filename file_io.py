@@ -123,3 +123,13 @@ with open("file.txt",'r') as f:
 
 f = open("file.txt", "r")
 print(f.read())
+
+
+
+
+
+
+# Open a file on a different location:
+
+f = open("D:\\myfiles\welcome.txt", "r")
+print(f.read())
