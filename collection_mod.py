@@ -72,3 +72,12 @@ Chainmap Objects
 baseline = {'Name': 'Peter', 'Age': '14'}  
 adjustments = {'Age': '14', 'Roll_no': '0012'}  
 print(list(ChainMap(adjustments, baseline)))  
+
+# *************************************************************************
+
+# UserDict Objects
+# The UserDict behaves as a wrapper around the dictionary objects. The dictionary can be accessed as an attribute by using the UserDict object. It provides the easiness to work with the dictionary.
+
+# It provides the following attribute.
+
+# data - A real dictionary used to store the contents of the UserDict class.
