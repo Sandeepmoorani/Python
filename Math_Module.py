@@ -27,10 +27,16 @@ print(math.sqrt( 9 ))
 
 
 # importing the required library  
-import math  
+# import math  
    
 # printing the value of Euler's number using the math module  
 print( "The value of Euler's Number is: ", math.e )  
+
+# Importing the required library  
+# import math  
+   
+# Printing the value of tau using math module  
+print ( "The value of Tau is: ", math.tau )  
 
 
 # Tau
