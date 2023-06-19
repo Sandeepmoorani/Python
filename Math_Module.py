@@ -31,3 +31,11 @@ import math
    
 # printing the value of Euler's number using the math module  
 print( "The value of Euler's Number is: ", math.e )  
+
+
+# Tau
+# The ratio of a circle's circumference to its radius is known as tau. The value tau returned by the tau constant is 6.283185307179586.
+
+# Syntax of this is:
+
+# math.tau  
