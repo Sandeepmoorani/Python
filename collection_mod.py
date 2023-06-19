@@ -29,3 +29,8 @@ d1['D']=13
     
 for k,v in d1.items():    
     print (k,v)    
+
+# **********************************************************************************
+
+defaultdict()
+# The Python defaultdict() is defined as a dictionary-like object. It is a subclass of the built-in dict class. It provides all methods provided by dictionary but takes the first argument as a default data type.
