@@ -25,3 +25,9 @@ print(math.sqrt( 9 ))
 # Euler's Number
 # The value 2.71828182845 of Euler's number is returned by the math.e constant.
 
+
+# importing the required library  
+import math  
+   
+# printing the value of Euler's number using the math module  
+print( "The value of Euler's Number is: ", math.e )  
