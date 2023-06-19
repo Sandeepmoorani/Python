@@ -68,3 +68,7 @@ print(deq)
 
 Chainmap Objects
 # A chainmap class is used to groups multiple dictionary together to create a single list. The linked dictionary stores in the list and it is public and can be accessed by the map attribute. Consider the following example.
+
+baseline = {'Name': 'Peter', 'Age': '14'}  
+adjustments = {'Age': '14', 'Roll_no': '0012'}  
+print(list(ChainMap(adjustments, baseline)))  
