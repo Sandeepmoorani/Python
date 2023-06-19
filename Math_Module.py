@@ -21,3 +21,7 @@ print(math.sqrt( 9 ))
 # Pi
 # Not a Number (NaN)
 # Let's go over each of them one by one.
+
+# Euler's Number
+# The value 2.71828182845 of Euler's number is returned by the math.e constant.
+
