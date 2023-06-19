@@ -8,3 +8,16 @@
 # importing the math module  
 import math  
 print(math.sqrt( 9 ))  
+
+
+# **************************************************************
+
+# Constants in Math Module
+# The value of numerous constants, including pi and tau, is provided in the math module so that we do not have to remember them. Using these constants eliminates the need to precisely and repeatedly write down the value of each constant. The math module includes the following constants:
+
+# Euler's Number
+# Tau
+# Infinity
+# Pi
+# Not a Number (NaN)
+# Let's go over each of them one by one.
