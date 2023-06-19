@@ -60,3 +60,6 @@ print(c[1])
 
 # deque()
 # The Python deque() is a double-ended queue which allows us to add and remove elements from both the ends.
+list = ["x","y","z"]    
+deq = deque(list)    
+print(deq)  
