@@ -81,6 +81,15 @@ print(list(ChainMap(adjustments, baseline)))
 # It provides the following attribute.
 
 # data - A real dictionary used to store the contents of the UserDict class.
+# *********************************************************************************
+
+# UserList Objects
+# The UserList behaves as a wrapper class around the list-objects. It is useful when we want to add new functionality to the lists. It provides the easiness to work with the dictionary.
+
+# It provides the following attribute.
+
+# data - A real list is used to store the contents of the User class.
+# *************************************************************************************
 
 # UserString Objects
 # The UserList behaves as a wrapper class around the list objects. The dictionary can be accessed as an attribute by using the UserString object. It provides the easiness to work with the dictionary.
