@@ -6,6 +6,8 @@ import random
 num=random.random()    
 print(num)    
 
+# ********************************************************************************
+
 # The randint() Function
 # The random.randint() function generates a random integer from the range of numbers supplied.
 
@@ -13,3 +15,9 @@ print(num)
 # import random  
 num = random.randint(1, 500)  
 print( num )  
+
+
+
+# ***********************************************************************
+The randrange() Function
+# The random.randrange() function selects an item randomly from the given range defined by the start, the stop, and the step parameters. By default, the start is set to 0. Likewise, the step is set to 1 by default.
