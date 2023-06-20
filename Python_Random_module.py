@@ -9,3 +9,7 @@ print(num)
 # The randint() Function
 # The random.randint() function generates a random integer from the range of numbers supplied.
 
+# Python program for generating a random integer  
+# import random  
+num = random.randint(1, 500)  
+print( num )  
