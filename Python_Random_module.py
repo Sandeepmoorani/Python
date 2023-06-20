@@ -5,3 +5,7 @@
 import random    
 num=random.random()    
 print(num)    
+
+# The randint() Function
+# The random.randint() function generates a random integer from the range of numbers supplied.
+
