@@ -29,3 +29,10 @@ num = random.randrange(1, 10)
 print( num )    
 num = random.randrange(1, 10, 2)    
 print( num )                
+
+
+# # *********************************************************
+# The choice() Function
+# The random.choice() function selects an item from a non-empty series at random. In the given below program, we have defined a string, list and a set. And using the above choice() method, random element is selected.
+
+
