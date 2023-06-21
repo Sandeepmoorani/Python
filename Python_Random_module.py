@@ -43,3 +43,6 @@ random_l = random.choice([23, 54, 765, 23, 45, 45]) #a list
 print( random_l )  
 random_s = random.choice((12, 64, 23, 54, 34)) #a set  
 print( random_s )  
+# # ********************************************************************************************
+# The shuffle() Function
+# The random.shuffle() function shuffles the given list randomly.
