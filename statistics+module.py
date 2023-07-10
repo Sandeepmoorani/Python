@@ -16,3 +16,7 @@ x = statistics.mean(datasets)
 print("Mean is :", x)  
 
 # **********************************************************************
+
+# median() function
+# The median() function is used to return the middle value of the numeric data in the list.
+
