@@ -20,3 +20,15 @@ print("Mean is :", x)
 # median() function
 # The median() function is used to return the middle value of the numeric data in the list.
 
+# Example
+
+import statistics     
+datasets = [4, -5, 6, 6, 9, 4, 5, -2]      
+# Printing median of the   
+# random data-set   
+print("Median of data-set is : % s "  
+        % (statistics.median(datasets)))  
+
+# Output:
+
+# Median of data-set is : 4.5
