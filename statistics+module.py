@@ -32,3 +32,11 @@ print("Median of data-set is : % s "
 # Output:
 
 # Median of data-set is : 4.5
+
+
+
+# mode() function
+# The mode() function returns the most common data that occurs in the list.
+
+
+
