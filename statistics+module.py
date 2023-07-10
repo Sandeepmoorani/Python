@@ -55,5 +55,15 @@ print("Calculated Mode % s" % (statistics.mode(dataset)))
 # stdev() function
 # The stdev() function is used to calculate the standard deviation on a given sample which is available in the form of the list.
 
+# Example
 
+import statistics     
+# creating a simple data - set   
+sample = [7, 8, 9, 10, 11]     
+# Prints standard deviation   
+print("Standard Deviation of sample is % s "   
+                % (statistics.stdev(sample)))   
+# Output:
+
+# Standard Deviation of sample is 1.5811388300841898
 
