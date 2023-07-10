@@ -51,3 +51,9 @@ print("Calculated Mode % s" % (statistics.mode(dataset)))
 # Output:
 
 # Calculated Mode 2
+
+# stdev() function
+# The stdev() function is used to calculate the standard deviation on a given sample which is available in the form of the list.
+
+
+
