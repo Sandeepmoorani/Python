@@ -74,3 +74,12 @@ print("Standard Deviation of sample is % s "
 # The median_low function is used to return the low median of numeric data in the list.
 
 
+# Example
+
+import statistics     
+# simple list of a set of integers   
+set1 = [4, 6, 2, 5, 7, 7]     
+# Note: low median will always be a member of the data-set.     
+# Print low median of the data-set   
+print("Low median of data-set is % s "   
+        % (statistics.median_low(set1)))  
