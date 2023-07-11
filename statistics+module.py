@@ -93,3 +93,13 @@ print("Low median of data-set is % s "
 # # **************************************************************************************************************
 # median_high()
 # The median_high function is used to return the high median of numeric data in the list.
+
+
+
+# Example
+
+import statistics     
+# list of set of the integers   
+dataset = [2, 1, 7, 6, 1, 9]     
+print("High median of data-set is %s "   
+        % (statistics.median_high(dataset)))  
