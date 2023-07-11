@@ -83,3 +83,11 @@ set1 = [4, 6, 2, 5, 7, 7]
 # Print low median of the data-set   
 print("Low median of data-set is % s "   
         % (statistics.median_low(set1)))  
+
+
+# Output:
+
+# Low median of the data-set is 5
+
+
+# **************************************************************************************************************
