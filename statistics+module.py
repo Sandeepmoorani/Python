@@ -90,4 +90,6 @@ print("Low median of data-set is % s "
 # Low median of the data-set is 5
 
 
-# **************************************************************************************************************
+# # **************************************************************************************************************
+# median_high()
+# The median_high function is used to return the high median of numeric data in the list.
