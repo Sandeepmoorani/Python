@@ -103,3 +103,8 @@ import statistics
 dataset = [2, 1, 7, 6, 1, 9]     
 print("High median of data-set is %s "   
         % (statistics.median_high(dataset)))  
+
+
+# Output:
+
+# High median of the data-set is 6
