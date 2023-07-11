@@ -66,4 +66,11 @@ print("Standard Deviation of sample is % s "
 # Output:
 
 # Standard Deviation of sample is 1.5811388300841898
+# ************************************************************************************************
+
+
+
+# median_low()
+# The median_low function is used to return the low median of numeric data in the list.
+
 
