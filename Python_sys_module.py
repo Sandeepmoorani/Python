@@ -16,3 +16,8 @@
 # sys.base_exec_prefix
 
 # This function provides an efficient way to the same value as exec_prefix. If not running a virtual environment, the value will remain the same.
+
+# sys.base_prefix
+
+# It is set up during Python startup, before site.py is run, to the same value as prefix.
+
