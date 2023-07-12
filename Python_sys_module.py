@@ -21,3 +21,8 @@
 
 # It is set up during Python startup, before site.py is run, to the same value as prefix.
 
+# sys.byteorder
+
+
+# It is an indication of the native byteorder that provides an efficient way to do something.
+
