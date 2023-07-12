@@ -13,3 +13,6 @@
 
 # This function returns a list of command line arguments passed to a Python script. The name of the script is always the item at index 0, and the rest of the arguments are stored at subsequent indices.
 
+# sys.base_exec_prefix
+
+# This function provides an efficient way to the same value as exec_prefix. If not running a virtual environment, the value will remain the same.
