@@ -30,3 +30,7 @@
 # sys.maxsize
 
 # This function returns the largest integer of a variable.
+
+# sys.path
+
+# This function shows the PYTHONPATH set in the current system. It is an environment variable that is a search path for all the python modules.
