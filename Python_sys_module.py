@@ -26,3 +26,7 @@
 
 # It is an indication of the native byteorder that provides an efficient way to do something.
 
+
+# sys.maxsize
+
+# This function returns the largest integer of a variable.
