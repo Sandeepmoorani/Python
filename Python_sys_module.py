@@ -39,3 +39,8 @@
 # sys.stdin
 
 # It is an object that contains the original values of stdin at the start of the program and used during finalization. It can restore the files.
+
+
+# sys.getrefcount
+
+# This function returns the reference count of an object.
