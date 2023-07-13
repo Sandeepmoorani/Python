@@ -41,6 +41,10 @@
 # It is an object that contains the original values of stdin at the start of the program and used during finalization. It can restore the files.
 
 
+# sys.exit
+
+# This function is used to exit from either the Python console or command prompt, and also used to exit from the program in case of an exception.
+
 # sys.getrefcount
 
 # This function returns the reference count of an object.
