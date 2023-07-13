@@ -34,3 +34,8 @@
 # sys.path
 
 # This function shows the PYTHONPATH set in the current system. It is an environment variable that is a search path for all the python modules.
+
+
+# sys.stdin
+
+# It is an object that contains the original values of stdin at the start of the program and used during finalization. It can restore the files.
