@@ -48,3 +48,8 @@
 # sys.getrefcount
 
 # This function returns the reference count of an object.
+
+
+# sys executable
+
+# The value of this function is the absolute path to a Python interpreter. It is useful for knowing where python is installed on someone else machine.
