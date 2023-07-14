@@ -31,3 +31,11 @@
 # Errors Highlighting
 # Powerful debugger
 # Supports Python web development frameworks, i.e., Angular JS, Javascript
+
+
+# Spyder
+# Python IDEs
+# Spyder is a well-known open-source IDE that is best suited for data research and has a high level of recognition in the industry. Scientific Python Development Environment is Spyder's full name. It supports all popular operating systems, including Windows, MacOS X, and Linux.
+
+# A number of features are offered by it, including a localised code editor, a document viewer, a variable explorer, an integrated console, etc. It also supports a number of scientific modules, including SciPy and NumPy.
+
