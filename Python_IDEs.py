@@ -17,3 +17,9 @@
 # Rodeo
 # Microsoft Visual Studio
 # Eric
+
+
+# 1) PyCharm
+# Python IDEs
+# The Jet Brains created PyCharm, a cross-platform Integrated Development Environment (IDE) created specifically for Python. It is the most popular IDE and is accessible in both a premium and a free open-source version. By handling everyday duties, a lot of time is saved.
+
