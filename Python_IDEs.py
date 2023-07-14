@@ -53,3 +53,10 @@
 # In 2003-2004, Aleksandar Totic, who is well known for his work on the Mosaic browser, contributed to the Pydev project.
 
 # Django integration, code auto-completion, smart and block indents, among other features, are features of Pydev.
+
+
+
+# Features
+# Strong Parameters like refactoring, debugging, code analysis, and code coverage function.
+# It supports virtual environments, Mypy, and black formatter.
+# Also supports PyLint integration, remote debugger, Unit test integration, etc.
