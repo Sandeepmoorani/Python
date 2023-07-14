@@ -4,3 +4,16 @@
 # It is specifically made for software development and includes a number of tools that are used in the creation and testing of the software.
 
 
+# There are some Python IDEs which are as follows:
+
+# Python IDEs
+# PyCharm
+# Spyder
+# PyDev
+# Atom
+# Wing
+# Jupyter Notebook
+# Thonny
+# Rodeo
+# Microsoft Visual Studio
+# Eric
