@@ -23,3 +23,11 @@
 # Python IDEs
 # The Jet Brains created PyCharm, a cross-platform Integrated Development Environment (IDE) created specifically for Python. It is the most popular IDE and is accessible in both a premium and a free open-source version. By handling everyday duties, a lot of time is saved.
 
+
+# it is a full-featured Python IDE with a wealth of features including auto code completion, easy project navigation, quick error checking and correction, support for remote development, database accessibility, etc.
+
+# Features
+# Smart code navigation
+# Errors Highlighting
+# Powerful debugger
+# Supports Python web development frameworks, i.e., Angular JS, Javascript
