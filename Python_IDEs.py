@@ -39,3 +39,7 @@
 
 # A number of features are offered by it, including a localised code editor, a document viewer, a variable explorer, an integrated console, etc. It also supports a number of scientific modules, including SciPy and NumPy.
 
+# Features
+# Proper syntax highlighting and auto code completion
+# Integrates strongly with IPython console
+# Performs well in multi-language editor and auto code completion mode
