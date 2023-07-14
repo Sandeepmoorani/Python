@@ -43,3 +43,13 @@
 # Proper syntax highlighting and auto code completion
 # Integrates strongly with IPython console
 # Performs well in multi-language editor and auto code completion mode
+
+
+
+# PyDev
+# Python IDEs
+# As an external plugin for Eclipse, PyDev is one of the most popular Python IDEs. The Python programmers who have a background in Java naturally gravitate towards this Python interpreter because it is so well-liked by users.
+
+# In 2003-2004, Aleksandar Totic, who is well known for his work on the Mosaic browser, contributed to the Pydev project.
+
+# Django integration, code auto-completion, smart and block indents, among other features, are features of Pydev.
